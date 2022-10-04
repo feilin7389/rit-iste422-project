@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+ext {
+    javaMainClass = 'RunEdgeConvert'
+}
+
+application {
+    mainClass = javaMainClass
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	testImplementation 'junit:junit:4.12'
+}
